@@ -1,0 +1,37 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"python.testing.pytestArgs": [
+			"tests"
+		],
+		"python.testing.unittestEnabled": false,
+		"python.testing.pytestEnabled": true,
+		"cSpell.words": [
+			"bbeeprog",
+			"docopt",
+			"pyserial",
+			"SOUT"
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Python: Current File",
+				"type": "python",
+				"request": "launch",
+				"program": "${file}",
+				"console": "integratedTerminal",
+				"justMyCode": true,
+				"args": [
+					"test.bin",
+					"/dev/ttyUSB0"
+				]
+			}
+		]
+	}
+}

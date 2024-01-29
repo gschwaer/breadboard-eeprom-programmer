@@ -1,0 +1,4 @@
+pyserial
+docopt
+types-docopt
+pytest
